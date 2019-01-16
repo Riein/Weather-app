@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 class WeatherContent extends Component {
     state = {  }
     render() {
         return (
-            
+            <div>
+
+            </div>
         );
     }
 }
