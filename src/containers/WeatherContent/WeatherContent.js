@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Aux from '../../hoc/Auxiliary';
+import CityInfo from '../../components/CityInfo/CityInfo';
 
 class WeatherContent extends Component {
     state = { 
@@ -15,7 +16,7 @@ class WeatherContent extends Component {
                 icon: ''
             },
             city_info_2: {
-                zipcode: 90210,
+                zipcode: 60605,
                 city: '',
                 state: '',
                 temp_f: '',
@@ -61,7 +62,24 @@ class WeatherContent extends Component {
     render() {
         return (
             <Aux>
-
+                <CityInfo 
+                    city={this.state.cities.city_info_1.city}
+                    state={this.state.cities.city_info_1.state}
+                    zip={this.state.cities.city_info_1.zipcode}
+                    tempf={this.state.cities.city_info_1.temp_f}
+                    tempc={this.state.cities.city_info_1.temp_c}
+                    weather={this.state.cities.city_info_1.weather}
+                    icon={this.state.cities.city_info_1.icon}
+                />
+                <CityInfo 
+                    city={this.state.cities.city_info_2.city}
+                    state={this.state.cities.city_info_2.state}
+                    zip={this.state.cities.city_info_2.zipcode}
+                    tempf={this.state.cities.city_info_2.temp_f}
+                    tempc={this.state.cities.city_info_2.temp_c}
+                    weather={this.state.cities.city_info_2.weather}
+                    icon={this.state.cities.city_info_2.icon}
+                />
             </Aux>
         );
     }
