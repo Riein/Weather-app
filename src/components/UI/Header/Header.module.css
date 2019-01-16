@@ -2,10 +2,10 @@
     height: 56px;
     width: 100%;
     position: fixed;
-    top: -22px; 
+    top: 0; 
     left: 0;
     color: white;
-    background-color: #703b09;
+    background-color: #2b2b2b;
     display: flex;
     justify-content: space-between;
     align-items: center;
