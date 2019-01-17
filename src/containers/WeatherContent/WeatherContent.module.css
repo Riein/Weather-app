@@ -1,0 +1,9 @@
+.WeatherContent {
+    margin: 0 auto;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

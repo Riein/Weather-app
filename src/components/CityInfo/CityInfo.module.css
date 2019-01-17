@@ -1,5 +1,9 @@
 .CityInfo {
-    width:50%;
+    width:40%;
     background-color: #acacac;
     border: 1px solid #6c6c6c;
+    border-radius: 5px;
+    padding: 0 20px;
+    text-align: center;
+    height: 450px;
 }
