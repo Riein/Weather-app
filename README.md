@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## API Information
+This projects uses the Wunderground API [here](https://www.wunderground.com/weather/api/). 
+An API must be used and stored in a .env file (located at the root of your project folder).
+Store the API Key as the variable REACT_APP_WEATHER_API_KEY to ensure the key works.
+Ex. REACT_APP_WEATHER_API_KEY=123456
+
+## Project Deployment
+This project is deployed using Surge and has been hosted at [http://sasha_weather.surge.sh/](http://sasha_weather.surge.sh/)
+
 ## Available Scripts
 
 In the project directory, you can run:
